@@ -5,6 +5,7 @@
   , "scripts": {
       "test": "coffee make test"
     , "dist": "coffee make dist"
+    , "dist-all": "MODULES=\"zepto event ajax form ie detect fx fx_methods assets data deferred callbacks selector touch gesture stack\" npm run dist"
     , "start": "coffee test/server.coffee"
   }
   , "repository": "madrobby/zepto"
