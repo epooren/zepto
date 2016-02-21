@@ -903,3 +903,13 @@ var Zepto = (function() {
 // If `$` is not yet defined, point it to `Zepto`
 window.Zepto = Zepto
 window.$ === undefined && (window.$ = Zepto)
+
+if(typeof exports === 'object' && typeof module === 'object') {
+    module.exports = Zepto;
+} else if (typeof define === 'function' && define.amd) {
+    define([], function () {
+      return Zepto;
+    });
+} else if (typeof exports === 'object') {
+    exports["Zepto"] = Zepto;
+}
