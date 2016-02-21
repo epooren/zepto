@@ -11,9 +11,14 @@ Zepto.js is licensed under the terms of the MIT License.
 Want to give us money or a tip? Don't.
 Instead please donate to [charity: water](http://charitywater.org/).
 
+## DIY
+
+* 支持UMD模块化
+* 增加`npm run dist-all`命令
+
 ## Building
 
-[![Build Status](https://secure.travis-ci.org/madrobby/zepto.svg?branch=master)](http://travis-ci.org/madrobby/zepto)
+[![Build Status](https://travis-ci.org/epooren/zepto.svg?branch=master)](http://travis-ci.org/epooren/zepto)
 
 The official site offers a download of the default distribution of Zepto. This
 is good for starting out. However, at some point you might want to add some
